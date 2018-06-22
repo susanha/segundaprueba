@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Music  App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+	 <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		
+       <section class="panel panel-left panel-reveal" >
+		    <article class="block">
+		 <img src="img/muligne.png" width="100px" class="center-block">
+		 </article>
+		   
+		   <article class="block" id="nav-list">
+			   <div class="list media-list">
+			   <ul>
+				   <li> <a href="/home/" class="item-content item-link panel-close">
+					   <div class="item-media">
+						   <i class="icon material-icons">home</i>
+						   </div>
+					   <div class="item-inner">
+					   <div class="item-title">
+						   Home
+						   </div>
+					   
+					   </div>
+					   
+					   </a>
+				   
+				   </li>
+				     <li> <a href="/Favorites/" class="item-content item-link panel-close">
+					   <div class="item-media">
+						   <i class="icon material-icons">search</i>
+						   </div>
+					   <div class="item-inner">
+					   <div class="item-title">
+						   Search
+						   </div>
+					   
+					   </div>
+					   
+					   </a>
+				   
+				   </li>
+				    <li> <a href="/Favorites/" class="item-content item-link panel-close">
+					   <div class="item-media">
+						   <i class="icon material-icons">playlist_play</i>
+						   </div>
+					   <div class="item-inner">
+					   <div class="item-title">
+						   Your paylist
+						   </div>
+					   
+					   </div>
+					   
+					   </a>
+				   
+				   </li>
+				    
+
+				     <li> <a href="/Favorites/" class="item-content item-link panel-close">
+					   <div class="item-media">
+						   <i class="icon material-icons">account_circle</i>
+						   </div>
+					   <div class="item-inner">
+					   <div class="item-title">
+						   Profile
+						   </div>
+					   
+					   </div>
+					   
+					   </a>
+				   
+				   </li>
+				  <li> <a href="/Favorites/" class="item-content item-link panel-close">
+					   <div class="item-media">
+						   <i class="icon material-icons">help</i>
+						   </div>
+					   <div class="item-inner">
+					   <div class="item-title">
+						   Help
+						   </div>
+					   
+					   </div>
+					   
+					   </a>
+				   
+				   </li>
+				   
+				   </ul>
+			   </div>
+		   </article>
+		 </section>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              
+				<div class="right">
+					<a class="link icon-only panel-open" data-panel="left"><i class="icon material-icons">menu</i></a>
+					
+				</div>
+				<div class="title"><img src="img/muligne.png" width="70px" class="center-block"></div>
+            </div>
+          </div>
+
+          <!-- Toolbar -->
+         
+          <!-- Scrollable page content -->
+         <section class="page-content" id="menu">
+	<article class="block">
+		<div class="row no-gap">
+			<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			 <a href="/latino/"><img src="img/latino.png" width="90px"></a>
+			</div>
+			<div class="card-footer">
+			Latino
+			</div>
+		</article> 
+			
+		</div>
+		<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			<img src="img/pop.png" width="90px">
+			</div>
+			<div class="card-footer">
+			Pop
+			</div>
+		</article> 
+		</div>
+			<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			<img src="img/fiesta.png" width="90px">
+			</div>
+			<div class="card-footer">
+			Fiesta
+			</div>
+		</article> 
+		</div>
+			
+			
+			
+			
+			
+			
+		</div>
+		<div class="row no-gap">
+			<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			<img src="img/ejercicio.png" width="90px">
+			</div>
+			<div class="card-footer">
+			Ejercicio
+			</div>
+		</article> 
+			
+		</div>
+		<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			<img src="img/dance.png" width="90px">
+			</div>
+			<div class="card-footer">
+			Dance
+			</div>
+		</article> 
+		</div>
+			<div class="col-33">
+		<article class="card">
+			
+			<div class="card-content">
+			<img src="img/paracomer.png" width="90px">
+			</div>
+			<div class="card-footer">
+			Para Comer
+			</div>
+		</article> 
+		</div>
+			
+			
+			
+			
+			
+			
+		</div>
+		
+		</article>
+	
+	</section>
+</section>
+			
+			
+			
+			
+			<section id="popup-login" class="popup modal-in">
+<div class="page no-navbar no-toolbar no-swipeback">
+    <div class="page-content login-screen-content">
+    <div class="login-screen-title">
+    	<img src="img/muligne.png" width="150px">
+    </div>
+    <form id="form-login">
+      <div class="list">
+        <ul>
+          <li class="item-content item-input">
+           
+            <div class="item-inner">
+              <div class="item-title item-label">Username</div>
+              <div class="item-input-wrap">
+                <input type="text" id="username" name="username" placeholder="Your username" required validate>
+              </div>
+            </div>
+          </li>
+          <li class="item-content item-input">
+            <div class="item-inner">
+              <div class="item-title item-label">Password</div>
+              <div class="item-input-wrap">
+                <input type="password" id="password" name="password" placeholder="Your password" required validate>
+              </div>
+            </div>
+          </li>
+          <!--<li class="item-content">
+			<div class="item-inner">
+				<div class="item-title item-label">Recordarme</div>
+				<div class="item-after">
+					<label class="toggle toggle-init">
+					<input name="recordarme" value="yes" type="checkbox"><i class="toggle-icon"></i>
+					</label>
+				</div>
+			</div>
+		  </li>-->
+        </ul>
+      </div>
+		 <div class="list block">
+       
+        <ul>
+          <li><a href="#" id="btn-login" class="item-link button button-fill button-round text-color-white">Sign In</a></li>
+        </ul>
+        <div class="block-footer">
+          <p><a href="#" class="link popup-open" data-popup=".popup-register">Register</a></p>
+          <!--<p><a href="#" class="close-login-screen">Register</a></p>-->
+        </div>
+      </div>
+		</form>
+  </div>
+</div>
+</section>
+			
+			
+			
+    </div>
+	 </div>
+		  </div>
+
+
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
